@@ -23,7 +23,7 @@ input1.addEventListener("change", () => {
 
 
 input2.addEventListener("change", () => {
-  let inputImage = document.querySelector("input[type=file]").files[0];
+  let inputImage = document.querySelector("input[type=file]").files[1];
   btn2.classList.add("active");
 
   imageName2.innerText = "File 2 : " + inputImage.name;
@@ -31,7 +31,7 @@ input2.addEventListener("change", () => {
 
 
 input3.addEventListener("change", () => {
-  let inputImage = document.querySelector("input[type=file]").files[0];
+  let inputImage = document.querySelector("input[type=file]").files[2];
   btn3.classList.add("active");
 
   imageName3.innerText = "File 3 : " + inputImage.name;
