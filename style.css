@@ -86,7 +86,7 @@ input[type="file"]{
 
 #imageName1,#imageName2,#imageName3{
   color:#bbffde88;
-  font-size: 12px;
+  font-size: 14px;
   line-height:4px;
 }
 .attachment label{
@@ -106,7 +106,8 @@ input[type="file"]{
     font-size:14px;
     color:gray;
     text-align: center;
-    margin:auto;
+    margin-top:20px;
+    
     
     
 }
