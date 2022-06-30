@@ -1,0 +1,123 @@
+@font-face {
+  font-family: font1;
+  src: url(fonts/BrandonTextBlack.ttf);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color:#002f3e;
+    font-family:font1,Arial, Helvetica, sans-serif;
+    
+}
+.container{
+    margin:20px auto;
+    text-align:left;
+    min-height:40vh;
+    width: 80vw;
+    border-radius:15px;
+    
+}
+.content{
+  padding-top: 20px;
+}
+.title{
+  color: #bbffde;
+  margin-bottom: 30px;
+  font-size: 33px;
+  
+  text-align: center;
+}
+label {
+  color:#bbffde;
+  font-size: 17px;
+  margin-top: 15px;
+  display:inline-block;
+  
+}
+
+
+input,textarea{
+    background-color:#ddf7ff;
+    border:1.5px solid #ddf7ff;
+    min-height: 35px;
+    max-height: 400px;
+    width: 100%;
+    border-radius:7px;
+    margin: auto;
+    margin-top:5px;
+    padding: 10px;
+    
+}
+::placeholder{
+  font-family: font1,Arial, Helvetica, sans-serif;
+  color:rgba(0,54,72,.38);
+  font-size: 14px;
+}
+
+input[type="submit"]{
+    background-color:#bbffde;
+    border: none;
+    height:50px;
+    border-radius:10px;
+    margin:30px auto;
+    width:100%;
+    color: #002f3e;
+    font-size:15px;
+    text-transform: uppercase;
+    font-family: font1,Arial, Helvetica, sans-serif;
+    display: block;
+}
+
+input[type="file"]{
+  display: none;
+}
+
+.attachment{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+ margin: auto;
+ margin-top: 15px;
+}
+
+#imageName1,#imageName2,#imageName3{
+  color:#bbffde88;
+  font-size: 12px;
+  line-height:4px;
+}
+.attachment label{
+  background-color: #bbffde;
+  color:#002f3e;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.attachment label.active{
+  background-color: #2B4747;
+  color:#A6E4C6;
+}
+
+.copyright{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:14px;
+    color:gray;
+    text-align: center;
+    margin:auto;
+    
+    
+}
+a.button{
+  color: cornflowerblue;
+  margin-top: 20px;
+  text-decoration: none;
+  font-size: 13px;
+  transition:.3s ease;
+}
+.button:hover{
+  color:#bbffde;
+  text-decoration: underline;
+}

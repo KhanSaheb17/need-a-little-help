@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Need a little help?</title>
+
+  <!-- HTML -->
+
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+  <div class="container">
+    <div class="content">
+
+
+      <div class="title">Need a little help?</div>
+      <form action="https://formsubmit.co/cd859fa4e0f1b8696ce38cfa152c4458" method="POST" enctype="multipart/form-data">
+
+        <label for="name">Your Name</label> <br>
+        <input type="text" name="name" id="name" placeholder="Your Name" required><br />
+
+        <label for="title">Title</label>
+        <br>
+        <input type="text" name="problem about" id="title" placeholder="What's your problem?" required><br />
+
+        <label for="description"> Description</label> <br>
+        <textarea name="problem description" id="description" rows="7" cols="40" placeholder="Please explain your problem here..."></textarea>
+        <br>
+
+        <label for="html">HTML</label> <br>
+        <textarea name="html" id="html" rows="10" cols="40" placeholder="Just copy & pest the HTML..." oninput='this.style.height = ""; this.style.height = this.scrollHeight + "px"' required></textarea>
+
+        <br />
+
+        <label for="css">CSS</label> <br>
+        <textarea name="css" id="css" rows="10" cols="40" placeholder="Copy & pest CSS too..." oninput='this.style.height = ""; this.style.height = this.scrollHeight + "px"' required></textarea>
+
+
+        <section class="attachment">
+          <label for="fileInput1" id="btn1">
+            File 1
+            <input name="attachment1" id="fileInput1" type="file" />
+           
+
+          </label>
+          
+
+          <label for="fileInput2" id="btn2">
+            File 2
+            <input name="attachment2" id="fileInput2" type="file" />
+            
+
+          </label>
+
+          <label for="fileInput3" id="btn3">
+            File 3
+            <input name="attachment3" id="fileInput3" type="file" />
+            
+
+          </label>
+        </section>
+
+        <input type="submit" value="send">
+        <input type="hidden" name="_next" value="thankyou.html">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_subject" value="New Coding Problem Submitted!">
+        <input type="text" name="_honey" style="display:none">
+      </form>
+    </div>
+    
+   <span id="imageName1"></span> <br>
+   <span id="imageName2"></span> <br>
+   <span id="imageName3"></span>
+  </div>
+   
+  <div class="copyright">© All rights reserved,2022</div>
+  <script src="main.js"></script>
+</body>
+
+</html>
